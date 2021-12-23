@@ -140,20 +140,20 @@ def analyzeReview(l):
                 pos=pos + 1
 
     totalRev = len(l)
-    #print("Total Reviews : ",len(l))
-    cleaned = totalRev - (neg+pos)
-    #print("Cleaned review : ", cleaned)
+    print("Total Reviews : ",totalRev)
+    ajaira = totalRev - (neg+pos)
+    print("Cleaned review : ", ajaira)
     #print("Total negative reviews : ",neg)
     #print("Total positive reviews : ",pos)
     global negPercentage
     global posPercentage
 
 
-    negPercentage = neg/(totalRev-cleaned)*100
+    negPercentage = neg/(totalRev-ajaira)*100
     negPercentage = round(negPercentage, 2)
     #print(f'Negative review percentage: {negPercentage}%') 
     
-    posPercentage = pos/(totalRev-cleaned)*100
+    posPercentage = pos/(totalRev-ajaira)*100
     posPercentage = round(posPercentage, 2)
     #print(f'Positive review percentage: {posPercentage}%') 
     
