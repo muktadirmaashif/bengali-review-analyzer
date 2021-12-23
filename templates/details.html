@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/details.css') }}">
+
+</head>
+<body class="main">
+    <img class="image" src="/static/images/CoverImage.jpg">
+    <div class="main--card">
+      <h1 class="title">BOOK DETAILS<h1>
+      <h4 class="card-subtitle">Book Name: {{ scrap.title }}</h4>
+      <h4 class="card-subtitle" style="margin-bottom: 20px;">Author Name: {{ scrap.author }}</h4>
+    
+    </div>
+    <div class="bottom"> 
+      <div class="main--card__secondary">Positive Review (in percentage): {{ scrap.pos }}%</div>
+      <div class="main--card__secondary">Negative Review (in percentage): {{ scrap.neg }}%</div>
+    </div>
+</body>
+</html>
