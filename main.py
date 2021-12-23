@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for, redirect
-from kivy.uix.screenmanager import Screen
+#from kivy.uix.screenmanager import Screen
 import Scraper 
 from Scraper import *
 
