@@ -34,3 +34,8 @@ Don't worry if it takes a little time. there's a machine learning model is being
 ***
 ## Live demo [HERE](https://bengali-review-analyzer.herokuapp.com). 
 Thanks!
+
+***
+## Credit 
+[https://github.com/rukhat/Rokomari-Review-Scraper](https://github.com/rukhat/Rokomari-Review-Scraper)
+[https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews](https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews)
