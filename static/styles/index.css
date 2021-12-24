@@ -8,12 +8,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 40vh;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 80%;
+  }
 }
 
 
 .title-one {
   color: #663399;
+  text-align: center;
+  padding-top: 100px;
 }
 @media only screen and (max-width: 600px) {
   .title-one {
@@ -21,14 +28,25 @@
   }
 }
 
+.para-one {
+  color: black;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .para-one {
+    width: 80%;
+    
+  }
+}
+
 .title-two {
   color: #aa0078;
+  text-align: center;
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 600px) {
   .title-two {
     width: 80%;
-    align-items: center;
   }
 }
 .main--form {
@@ -80,6 +98,18 @@
 }
 @media only screen and (max-width: 600ps) {
   .alert-danger {
+    width: 80%;
+  }
+}
+
+.title-section {
+  background-color: #d2dee9;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .title-section {
     width: 80%;
   }
 }
