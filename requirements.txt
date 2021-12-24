@@ -6,7 +6,6 @@ blinker==1.4
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.9
-chromedriver-installer==0.0.6
 click==8.0.3
 colorama==0.4.4
 configparser==5.2.0
