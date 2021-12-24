@@ -19,7 +19,7 @@ def index():
         
         scrap = {'title': Scraper.Bangla_title,
                     'author': Scraper.Bangla_author,
-                    'pos': mlModel.posPercentage, 
+                    'pos': mlModel.posPercentage,
                     'neg': mlModel.negPercentage}
         return render_template("details.html", scrap= scrap)
     else:
