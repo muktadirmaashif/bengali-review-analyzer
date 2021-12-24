@@ -37,5 +37,5 @@ Thanks!
 
 ***
 ## Credit 
-[https://github.com/rukhat/Rokomari-Review-Scraper](https://github.com/rukhat/Rokomari-Review-Scraper)
-[https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews](https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews)
+1. [https://github.com/rukhat/Rokomari-Review-Scraper](https://github.com/rukhat/Rokomari-Review-Scraper)
+2. [https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews](https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews)
