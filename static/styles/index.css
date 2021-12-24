@@ -65,6 +65,7 @@
 
 .main--form__input {
     padding: 10px;
+    
     /* box-sizing: border-box; */
     width: 600px;
     margin-bottom: 10px;
@@ -92,15 +93,6 @@
   }
 }
 
-.alert-danger {
-  margin-bottom: 50px;
-
-}
-@media only screen and (max-width: 600ps) {
-  .alert-danger {
-    width: 80%;
-  }
-}
 
 .title-section {
   background-color: #d2dee9;

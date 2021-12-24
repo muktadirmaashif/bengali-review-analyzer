@@ -22,16 +22,9 @@
     </div>
   </nav>
 
-  <section class="title-section">
-    <h1 class="title-one">SENTIMENT ANALYSIS OF</h1>
-    <h2 class="title-two">BENGLALI BOOK REVIEW</h2>
-  </section>
-<div class="main">
   
-    
-      
-          
-            {% block content %}
+    <div class="container">
+      {% block content %}
     <!--{% with messages = get_flashed_messages() %}
       {% if messages %} -->
           {% for message in messages %}
@@ -46,11 +39,18 @@
       <!--{% endif %}
     {% endwith %}-->
   {% endblock %}
-   
+    </div>
+    
+    
+    <h3 class="title-one">SENTIMENT ANALYSIS OF</h3>
+    <h4 class="title-two">BENGLALI BOOK REVIEW</h4>
+  
 
   
-    
-    <p class="para-one">Welcome to <strong style="color: #663399;">Bengali Review Analyzer.</strong> Here you can analyze bengali reviews from any online bookshop. Please enter an URL. <mark>e.g. https://www.rokomari.com/book/1307</mark></p>
+
+<div class="main">
+  
+    <p class="para-one">Please enter a full URL. <em>e.g. https://www.rokomari.com/book/1307</em></p>
     <form action="#" method="post" class="main--form">
         <input class="main--form__input"type="text" id="url" name="url" placeholder="ENTER URL HERE:">
         <input type="submit" value="ENTER" class="main--form__button">
