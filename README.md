@@ -29,7 +29,7 @@ $ flask run
 Don't worry if it takes a little time. there's a machine learning model is being trained in the back-end. Therefore it will take some time to load first time. 
 ***
 ## SABR Homepage
-![SABR Homepage](static/images/review-analyzer.png)
+![SABR Homepage](static/images/review-ss.png)
 
 ***
 ## Live demo [HERE](https://bengali-review-analyzer.herokuapp.com). 
