@@ -16,27 +16,18 @@
   }
 }
 
-.title {
-  background-color: #d2dee9;
-  height: 150px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-@media only screen and (max-width: 600px) {
-  .title-section {
-    width: 80%;
-  }
-}
 
 
 .title-one {
   padding-top: 45px;
+  font-family: Ubuntu;
   color: #663399;
+  text-align: center;
+
 }
 @media only screen and (max-width: 600px) {
   .title-one {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -52,8 +43,10 @@
 }
 
 .title-two {
+  font-family: Ubuntu;
   color: #aa0078;
   margin-bottom: 50px;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   .title-two {
@@ -92,7 +85,7 @@
   /*align-self: flex-end; */
   margin-top: 5px;
   padding: 8px;
-  background-color: orange;
+  background-color: cyan;
   border: none;
   color: black;
   cursor: pointer;
